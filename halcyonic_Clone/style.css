@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#353D40;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #c7c8c8;
+}
+.header{
+ background: #36383b url(bg01.jpg);
+ color:   #c7c8c8;
+ 
+ 
+}
+.col-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 155px;
+    color: #c7c8c8;
+    border-bottom: .5px solid rgb(80, 78, 78);
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+    padding: 10px;
+    margin: 0em 0em 1.3em 0em;
+
+}
+.col-12 a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+#logo{
+    font-size: 58px;
+    position: relative;
+    top: 1.4em;
+}
+#nav{
+    position: relative;
+    top: 6em;
+}
+nav a{
+    margin: 20px;
+    font-size: 30px;
+    
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+.banner-image{
+    padding: 1em 7em 1em 7em;
+    border-bottom: .5px solid rgb(80, 78, 78);
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+    /* margin: 0em 0em 1.3em 0em; */
+}
+
+.para1{
+    font-size: 40px;
+    color: #fff;
+   
+}
+.big-button{
+    background-color: red;
+    border-radius: 10px;
+   font-size: 1.5em;
+   margin-top: 1.5em;
+   padding: 1em;
+}
+button:hover{
+    background-color: rgb(93, 30, 30);
+    cursor: pointer;
+}
+.section3{
+    padding: 1em 7em 1em 7em;
+    border-bottom: .5px solid rgb(80, 78, 78);
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+    
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+    
+    
+}
+.row3 section{
+    margin: 2em;
+}
+.row3 section p{
+    color:#a0a8ab  ;
+    /* width: 70%; */
+
+}
+section a img{
+    /* border:6px solid rgb(180, 183, 185);
+    margin: 8px; */
+    background: #fff url(bg04.jpg);
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.section4{
+    padding: 1em 7em 1em 7em;
+    border-bottom: .5px solid rgb(80, 78, 78);
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
+    
+}
+
+.content{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    margin-left: 8em;
+    margin-right: 8em;
+   
+   
+}
+
+    
